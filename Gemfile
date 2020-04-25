@@ -28,6 +28,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'annotate', '~> 3.1', '>= 3.1.1'
 gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
+gem 'sidekiq', '~> 6.0', '>= 6.0.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,0 +1,5 @@
+<p>
+  <b><%= notification.item.title %></b>
+  <small><%= notification.item.body.truncate(25) %></small>
+  <%= link_to "Mark as read", notification_path(id: notification, notification: {viewed: true}), method: :put %>
+</p>
